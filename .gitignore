@@ -1,3 +1,5 @@
 venv
 storage.db
 storage (backup).db
+**/__pycache__
+.pytest_cache
