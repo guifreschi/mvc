@@ -31,7 +31,6 @@ class MockConnectionNoResult:
     def __enter__(self): return self
     def __exit__(self, exc_type, exc_value, exc_tb): pass
 
-
 def test_list_pets():
     mock_connection = MockConnection()
     repo = PetsRepository(mock_connection)
